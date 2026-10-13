@@ -1,0 +1,216 @@
+12:37:56 [bbbridge] bbbridge 0.3.2 - bbport: D:\SteamLibrary\steamapps\common\Bloodborne\bbport-windows (the folder bbbridge is in)
+12:37:56 [bbbridge] p2p: gateway on udp :55559 (bbhost framing)
+12:37:56 [bbbridge] listening: tcp :31313  stun :31314  webapi :31315
+12:37:56 [bbbridge] game proxy :31316 -> https://thehuntersdream.com:20443
+12:37:56 [bbbridge] game proxy :31317 -> https://thehuntersdream.com:18671
+12:37:56 [bbbridge] bbhost server: https://thehuntersdream.com:18671
+12:37:56 [bbbridge] community server: https://thehuntersdream.com:18671
+12:37:56 [bbbridge] the game's server traffic goes through bbbridge
+12:37:57 [bbbridge] p2p: relay on, our port on it is 4100
+12:37:57 [bbbridge] p2p: STUN sees us as 167.172.113.219:4100
+12:37:58 [bbbridge] bridge stopped
+12:37:58 [bbbridge] the game's server traffic goes to bbport's own addresses again
+12:38:00 [bbbridge] p2p: gateway on udp :60424 (bbhost framing)
+12:38:00 [bbbridge] listening: tcp :31313  stun :31314  webapi :31315
+12:38:00 [bbbridge] game proxy :31316 -> https://thehuntersdream.com:20443
+12:38:00 [bbbridge] game proxy :31317 -> https://thehuntersdream.com:18671
+12:38:00 [bbbridge] bbhost server: https://thehuntersdream.com:18671
+12:38:00 [bbbridge] community server: https://thehuntersdream.com:18671
+12:38:00 [bbbridge] the game's server traffic goes through bbbridge
+12:38:01 [bbbridge] p2p: relay on, our port on it is 4101
+12:38:01 [bbbridge] p2p: STUN sees us as 167.172.113.219:4101
+12:38:03 [bbbridge] starting the game (bbhost pool through bbbridge): D:\SteamLibrary\steamapps\common\Bloodborne\bbport-windows\Play Bloodborne.exe
+12:38:08 [bbbridge] tcp: connection from 127.0.0.1:60815
+12:38:08 [bbbridge] tcp: connection from 127.0.0.1:60816
+12:38:08 [bbbridge] login: npid='muvodich00' title=CUSA03173
+12:38:09 [bbbridge] bbhost: using the stored token for 'muvodich00'
+12:38:09 [bbbridge] login: account id 4748937918720325 for 'muvodich00'
+12:38:09 [bbbridge] cmd 0 pkt 1 -> error 0, 13 bytes
+12:38:09 [bbbridge] cmd 39 pkt 2 -> error 0, 70 bytes
+12:38:09 [bbbridge] cmd 12 pkt 3 -> error 0, 6 bytes
+12:38:11 [bbbridge] warning: no STUN ping seen for 'muvodich00' yet; P2P endpoint unknown
+12:38:11 [bbbridge] cmd 100 pkt 4 -> error 0, 0 bytes
+12:38:13 [bbbridge] cmd 111 pkt 5 -> error 0, 10 bytes
+12:38:16 [bbbridge] game GET 20443 /bb-eu/ss.info: 0 bytes -> HTTP 200, 15216 bytes
+12:38:18 [bbbridge] game POST 18671 /basic_utils/login: 171 bytes -> HTTP 200, 599 bytes
+12:38:18 [bbbridge] game POST 18671 /basic_utils/get_normal_notice: 128 bytes -> HTTP 200, 594 bytes
+12:38:23 [bbbridge] game POST 18671 /penalty/check_user_priority_move_count: 126 bytes -> HTTP 200, 64 bytes
+12:38:23 [bbbridge] game POST 18671 /blood_messenger/exist_messages: 142 bytes -> HTTP 200, 108 bytes
+12:38:24 [bbbridge] game POST 18671 /basic_utils/get_emergency_notice: 165 bytes -> HTTP 200, 104 bytes
+12:38:24 [bbbridge] game POST 18671 /messenger_shell/upload: 171 bytes -> HTTP 200, 56 bytes
+12:38:25 [bbbridge] game POST 18671 /wandering_ghost/get: 274 bytes -> HTTP 200, 4834 bytes
+12:38:25 [bbbridge] game POST 18671 /chair_messenger/get: 168 bytes -> HTTP 200, 801 bytes
+12:38:25 [bbbridge] game POST 18671 /channel/get_info: 121 bytes -> HTTP 200, 94 bytes
+12:38:26 [bbbridge] game POST 18671 /blood_messenger/evaluation: 129 bytes -> HTTP 200, 85 bytes
+12:38:27 [bbbridge] game POST 18671 /blood_messenger/message_area: 1129 bytes -> HTTP 200, 36812 bytes
+12:38:28 [bbbridge] game POST 18671 /tomb_messenger/message_area: 1106 bytes -> HTTP 200, 14665 bytes
+12:38:32 [bbbridge] game POST 18671 /chair_messenger/get: 264 bytes -> HTTP 200, 729 bytes
+12:38:35 [bbbridge] game PUT 18671 /20261013/20261013053835_8650_2106: 876 bytes -> HTTP 200, 15 bytes
+12:38:49 [bbbridge] game PUT 18671 /20261013/20261013053840_8650_5452: 940 bytes -> HTTP 200, 15 bytes
+12:38:49 [bbbridge] game PUT 18671 /20261013/20261013053845_8650_3214: 984 bytes -> HTTP 200, 15 bytes
+12:38:50 [bbbridge] game PUT 18671 /20261013/20261013053850_8650_9321: 984 bytes -> HTTP 200, 15 bytes
+12:38:56 [bbbridge] game PUT 18671 /20261013/20261013053855_8650_5683: 1536 bytes -> HTTP 200, 15 bytes
+12:39:01 [bbbridge] game PUT 18671 /20261013/20261013053900_8650_2828: 1024 bytes -> HTTP 200, 15 bytes
+12:39:06 [bbbridge] game PUT 18671 /20261013/20261013053905_8650_8747: 1472 bytes -> HTTP 200, 15 bytes
+12:39:11 [bbbridge] game PUT 18671 /20261013/20261013053910_8650_4165: 1600 bytes -> HTTP 200, 15 bytes
+12:39:16 [bbbridge] game PUT 18671 /20261013/20261013053915_8650_5557: 1152 bytes -> HTTP 200, 15 bytes
+12:39:20 [bbbridge] game PUT 18671 /20261013/20261013053920_8650_0053: 704 bytes -> HTTP 200, 15 bytes
+12:39:24 [bbbridge] game POST 18671 /basic_utils/get_emergency_notice: 165 bytes -> HTTP 200, 104 bytes
+12:39:25 [bbbridge] game PUT 18671 /20261013/20261013053925_8650_0221: 684 bytes -> HTTP 200, 15 bytes
+12:39:26 [bbbridge] game POST 18671 /wandering_ghost/create: 755 bytes -> HTTP 200, 82 bytes
+12:39:30 [bbbridge] game PUT 18671 /20261013/20261013053930_8650_7481: 576 bytes -> HTTP 200, 15 bytes
+12:39:35 [bbbridge] game PUT 18671 /20261013/20261013053935_8650_2997: 576 bytes -> HTTP 200, 15 bytes
+12:39:40 [bbbridge] game PUT 18671 /20261013/20261013053940_8650_5865: 576 bytes -> HTTP 200, 15 bytes
+12:39:45 [bbbridge] game PUT 18671 /20261013/20261013053945_8650_2516: 576 bytes -> HTTP 200, 15 bytes
+12:39:59 [bbbridge] game PUT 18671 /20261013/20261013053950_8650_7174: 576 bytes -> HTTP 200, 15 bytes
+12:40:00 [bbbridge] game PUT 18671 /20261013/20261013053955_8650_2088: 576 bytes -> HTTP 200, 15 bytes
+12:40:00 [bbbridge] game PUT 18671 /20261013/20261013054000_8650_6295: 600 bytes -> HTTP 200, 15 bytes
+12:40:05 [bbbridge] game PUT 18671 /20261013/20261013054005_8650_8272: 576 bytes -> HTTP 200, 15 bytes
+12:40:10 [bbbridge] game PUT 18671 /20261013/20261013054010_8650_8784: 576 bytes -> HTTP 200, 15 bytes
+12:40:15 [bbbridge] game PUT 18671 /20261013/20261013054015_8650_3693: 576 bytes -> HTTP 200, 15 bytes
+12:40:20 [bbbridge] game PUT 18671 /20261013/20261013054020_8650_6296: 576 bytes -> HTTP 200, 15 bytes
+12:40:25 [bbbridge] game POST 18671 /basic_utils/get_emergency_notice: 165 bytes -> HTTP 200, 104 bytes
+12:40:25 [bbbridge] game POST 18671 /wandering_ghost/get: 307 bytes -> HTTP 200, 5586 bytes
+12:40:25 [bbbridge] game PUT 18671 /20261013/20261013054025_8650_9653: 576 bytes -> HTTP 200, 15 bytes
+12:40:26 [bbbridge] game POST 18671 /wandering_ghost/create: 605 bytes -> HTTP 200, 82 bytes
+12:40:27 [bbbridge] game POST 18671 /blood_messenger/message_area: 1129 bytes -> HTTP 200, 36813 bytes
+12:40:28 [bbbridge] game POST 18671 /tomb_messenger/message_area: 1106 bytes -> HTTP 200, 14668 bytes
+12:40:30 [bbbridge] game PUT 18671 /20261013/20261013054030_8650_9819: 576 bytes -> HTTP 200, 15 bytes
+12:40:36 [bbbridge] game PUT 18671 /20261013/20261013054035_8650_4703: 576 bytes -> HTTP 200, 15 bytes
+12:40:40 [bbbridge] game PUT 18671 /20261013/20261013054040_8650_2677: 576 bytes -> HTTP 200, 15 bytes
+12:40:45 [bbbridge] game PUT 18671 /20261013/20261013054045_8650_4639: 576 bytes -> HTTP 200, 15 bytes
+12:40:50 [bbbridge] game PUT 18671 /20261013/20261013054050_8650_3586: 576 bytes -> HTTP 200, 15 bytes
+12:40:55 [bbbridge] game PUT 18671 /20261013/20261013054055_8650_4110: 576 bytes -> HTTP 200, 15 bytes
+12:41:10 [bbbridge] game PUT 18671 /20261013/20261013054100_8650_7019: 576 bytes -> HTTP 200, 15 bytes
+12:41:10 [bbbridge] game PUT 18671 /20261013/20261013054105_8650_3229: 576 bytes -> HTTP 200, 15 bytes
+12:41:10 [bbbridge] game PUT 18671 /20261013/20261013054110_8650_3484: 576 bytes -> HTTP 200, 15 bytes
+12:41:15 [bbbridge] game PUT 18671 /20261013/20261013054115_8650_9655: 576 bytes -> HTTP 200, 15 bytes
+12:41:20 [bbbridge] game PUT 18671 /20261013/20261013054120_8650_0483: 576 bytes -> HTTP 200, 15 bytes
+12:41:24 [bbbridge] game POST 18671 /basic_utils/get_emergency_notice: 165 bytes -> HTTP 200, 104 bytes
+12:41:25 [bbbridge] game PUT 18671 /20261013/20261013054125_8650_3695: 576 bytes -> HTTP 200, 15 bytes
+12:41:26 [bbbridge] game POST 18671 /wandering_ghost/create: 615 bytes -> HTTP 200, 82 bytes
+12:41:30 [bbbridge] game PUT 18671 /20261013/20261013054130_8650_1550: 576 bytes -> HTTP 200, 15 bytes
+12:41:35 [bbbridge] game PUT 18671 /20261013/20261013054135_8650_4955: 576 bytes -> HTTP 200, 15 bytes
+12:41:40 [bbbridge] game PUT 18671 /20261013/20261013054140_8650_9322: 576 bytes -> HTTP 200, 15 bytes
+12:41:45 [bbbridge] game PUT 18671 /20261013/20261013054145_8650_0260: 576 bytes -> HTTP 200, 15 bytes
+12:41:50 [bbbridge] game PUT 18671 /20261013/20261013054150_8650_9839: 576 bytes -> HTTP 200, 15 bytes
+12:41:55 [bbbridge] game PUT 18671 /20261013/20261013054155_8650_0587: 576 bytes -> HTTP 200, 15 bytes
+12:42:00 [bbbridge] game PUT 18671 /20261013/20261013054200_8650_5588: 576 bytes -> HTTP 200, 15 bytes
+12:42:05 [bbbridge] game PUT 18671 /20261013/20261013054205_8650_2953: 576 bytes -> HTTP 200, 15 bytes
+12:42:20 [bbbridge] game PUT 18671 /20261013/20261013054210_8650_3056: 576 bytes -> HTTP 200, 15 bytes
+12:42:20 [bbbridge] game PUT 18671 /20261013/20261013054215_8650_0675: 576 bytes -> HTTP 200, 15 bytes
+12:42:20 [bbbridge] game PUT 18671 /20261013/20261013054220_8650_2766: 576 bytes -> HTTP 200, 15 bytes
+12:42:24 [bbbridge] game POST 18671 /basic_utils/get_emergency_notice: 165 bytes -> HTTP 200, 104 bytes
+12:42:25 [bbbridge] game POST 18671 /wandering_ghost/get: 307 bytes -> HTTP 200, 4070 bytes
+12:42:26 [bbbridge] game PUT 18671 /20261013/20261013054225_8650_8507: 576 bytes -> HTTP 200, 15 bytes
+12:42:26 [bbbridge] game POST 18671 /wandering_ghost/create: 613 bytes -> HTTP 200, 82 bytes
+12:42:27 [bbbridge] game POST 18671 /blood_messenger/message_area: 1129 bytes -> HTTP 200, 36813 bytes
+12:42:28 [bbbridge] game POST 18671 /tomb_messenger/message_area: 1106 bytes -> HTTP 200, 14668 bytes
+12:42:30 [bbbridge] game PUT 18671 /20261013/20261013054230_8650_6164: 576 bytes -> HTTP 200, 15 bytes
+12:42:36 [bbbridge] game PUT 18671 /20261013/20261013054235_8650_8582: 576 bytes -> HTTP 200, 15 bytes
+12:42:40 [bbbridge] game PUT 18671 /20261013/20261013054240_8650_1657: 576 bytes -> HTTP 200, 15 bytes
+12:42:46 [bbbridge] game PUT 18671 /20261013/20261013054245_8650_9531: 576 bytes -> HTTP 200, 15 bytes
+12:42:50 [bbbridge] game PUT 18671 /20261013/20261013054250_8650_3536: 576 bytes -> HTTP 200, 15 bytes
+12:42:56 [bbbridge] game PUT 18671 /20261013/20261013054255_8650_7130: 576 bytes -> HTTP 200, 15 bytes
+12:43:01 [bbbridge] game PUT 18671 /20261013/20261013054300_8650_2253: 576 bytes -> HTTP 200, 15 bytes
+12:43:06 [bbbridge] game PUT 18671 /20261013/20261013054305_8650_1849: 792 bytes -> HTTP 200, 15 bytes
+12:43:12 [bbbridge] game PUT 18671 /20261013/20261013054310_8650_8683: 1368 bytes -> HTTP 200, 15 bytes
+12:43:17 [bbbridge] game PUT 18671 /20261013/20261013054315_8650_9660: 1368 bytes -> HTTP 200, 15 bytes
+12:43:17 [bbbridge] game GET 20443 /bb-eu/ss.info: 0 bytes -> HTTP 200, 15216 bytes
+12:43:30 [bbbridge] game POST 18671 /chair_messenger/update: 160 bytes -> HTTP 200, 63 bytes
+12:43:30 [bbbridge] game POST 18671 /basic_utils/get_emergency_notice: 165 bytes -> HTTP 200, 104 bytes
+12:43:30 [bbbridge] game POST 18671 /wandering_ghost/create: 1436 bytes -> HTTP 200, 82 bytes
+12:43:31 [bbbridge] game PUT 18671 /20261013/20261013054320_8650_3301: 1600 bytes -> HTTP 200, 15 bytes
+12:43:31 [bbbridge] game PUT 18671 /20261013/20261013054325_8650_0121: 1048 bytes -> HTTP 200, 15 bytes
+12:43:32 [bbbridge] game POST 18671 /chair_messenger/get: 264 bytes -> HTTP 200, 913 bytes
+12:43:32 [bbbridge] game PUT 18671 /20261013/20261013054330_8650_7895: 1112 bytes -> HTTP 200, 15 bytes
+12:43:36 [bbbridge] game PUT 18671 /20261013/20261013054335_8650_3644: 812 bytes -> HTTP 200, 15 bytes
+12:43:41 [bbbridge] game PUT 18671 /20261013/20261013054340_8650_6105: 576 bytes -> HTTP 200, 15 bytes
+12:43:46 [bbbridge] game PUT 18671 /20261013/20261013054345_8650_4593: 576 bytes -> HTTP 200, 15 bytes
+12:43:51 [bbbridge] game PUT 18671 /20261013/20261013054350_8650_4726: 576 bytes -> HTTP 200, 15 bytes
+12:43:56 [bbbridge] game PUT 18671 /20261013/20261013054355_8650_9063: 576 bytes -> HTTP 200, 15 bytes
+12:44:01 [bbbridge] game PUT 18671 /20261013/20261013054400_8650_9848: 576 bytes -> HTTP 200, 15 bytes
+12:44:06 [bbbridge] game PUT 18671 /20261013/20261013054405_8650_5414: 576 bytes -> HTTP 200, 15 bytes
+12:44:11 [bbbridge] game PUT 18671 /20261013/20261013054411_8650_3618: 576 bytes -> HTTP 200, 15 bytes
+12:44:16 [bbbridge] game PUT 18671 /20261013/20261013054416_8650_1040: 576 bytes -> HTTP 200, 15 bytes
+12:44:21 [bbbridge] game PUT 18671 /20261013/20261013054421_8650_1763: 576 bytes -> HTTP 200, 15 bytes
+12:44:24 [bbbridge] game POST 18671 /basic_utils/get_emergency_notice: 165 bytes -> HTTP 200, 104 bytes
+12:44:25 [bbbridge] game POST 18671 /wandering_ghost/get: 307 bytes -> HTTP 200, 5562 bytes
+12:44:26 [bbbridge] game PUT 18671 /20261013/20261013054426_8650_7825: 576 bytes -> HTTP 200, 15 bytes
+12:44:26 [bbbridge] game POST 18671 /wandering_ghost/create: 804 bytes -> HTTP 200, 82 bytes
+12:44:27 [bbbridge] game POST 18671 /blood_messenger/message_area: 1129 bytes -> HTTP 200, 36811 bytes
+12:44:28 [bbbridge] game POST 18671 /tomb_messenger/message_area: 1106 bytes -> HTTP 200, 14668 bytes
+12:44:40 [bbbridge] game PUT 18671 /20261013/20261013054431_8650_8912: 576 bytes -> HTTP 200, 15 bytes
+12:44:40 [bbbridge] game PUT 18671 /20261013/20261013054436_8650_0868: 576 bytes -> HTTP 200, 15 bytes
+12:44:41 [bbbridge] game PUT 18671 /20261013/20261013054441_8650_0041: 576 bytes -> HTTP 200, 15 bytes
+12:44:46 [bbbridge] game PUT 18671 /20261013/20261013054446_8650_2817: 576 bytes -> HTTP 200, 15 bytes
+12:44:51 [bbbridge] game PUT 18671 /20261013/20261013054451_8650_3606: 576 bytes -> HTTP 200, 15 bytes
+12:44:56 [bbbridge] game PUT 18671 /20261013/20261013054456_8650_5798: 576 bytes -> HTTP 200, 15 bytes
+12:45:01 [bbbridge] game PUT 18671 /20261013/20261013054501_8650_9386: 576 bytes -> HTTP 200, 15 bytes
+12:45:06 [bbbridge] game PUT 18671 /20261013/20261013054506_8650_3261: 576 bytes -> HTTP 200, 15 bytes
+12:45:11 [bbbridge] game PUT 18671 /20261013/20261013054511_8650_3832: 576 bytes -> HTTP 200, 15 bytes
+12:45:16 [bbbridge] game PUT 18671 /20261013/20261013054516_8650_0423: 576 bytes -> HTTP 200, 15 bytes
+12:45:21 [bbbridge] game PUT 18671 /20261013/20261013054521_8650_1979: 576 bytes -> HTTP 200, 15 bytes
+12:45:24 [bbbridge] game POST 18671 /basic_utils/get_emergency_notice: 165 bytes -> HTTP 200, 104 bytes
+12:45:26 [bbbridge] game POST 18671 /wandering_ghost/create: 836 bytes -> HTTP 200, 82 bytes
+12:45:26 [bbbridge] game PUT 18671 /20261013/20261013054526_8650_5579: 576 bytes -> HTTP 200, 15 bytes
+12:45:31 [bbbridge] game PUT 18671 /20261013/20261013054531_8650_7247: 576 bytes -> HTTP 200, 15 bytes
+12:45:36 [bbbridge] game PUT 18671 /20261013/20261013054536_8650_7673: 576 bytes -> HTTP 200, 15 bytes
+12:45:50 [bbbridge] game PUT 18671 /20261013/20261013054541_8650_2138: 576 bytes -> HTTP 200, 15 bytes
+12:45:50 [bbbridge] game PUT 18671 /20261013/20261013054546_8650_9133: 576 bytes -> HTTP 200, 15 bytes
+12:45:51 [bbbridge] game PUT 18671 /20261013/20261013054551_8650_9953: 576 bytes -> HTTP 200, 15 bytes
+12:45:56 [bbbridge] game PUT 18671 /20261013/20261013054556_8650_1472: 576 bytes -> HTTP 200, 15 bytes
+12:46:01 [bbbridge] game PUT 18671 /20261013/20261013054601_8650_9160: 576 bytes -> HTTP 200, 15 bytes
+12:46:06 [bbbridge] game PUT 18671 /20261013/20261013054606_8650_1237: 620 bytes -> HTTP 200, 15 bytes
+12:46:11 [bbbridge] game PUT 18671 /20261013/20261013054611_8650_3738: 1004 bytes -> HTTP 200, 15 bytes
+12:46:16 [bbbridge] game PUT 18671 /20261013/20261013054616_8650_8671: 620 bytes -> HTTP 200, 15 bytes
+12:46:21 [bbbridge] game PUT 18671 /20261013/20261013054621_8650_9754: 576 bytes -> HTTP 200, 15 bytes
+12:46:24 [bbbridge] game POST 18671 /basic_utils/get_emergency_notice: 165 bytes -> HTTP 200, 104 bytes
+12:46:25 [bbbridge] game POST 18671 /wandering_ghost/get: 307 bytes -> HTTP 200, 4734 bytes
+12:46:26 [bbbridge] game POST 18671 /wandering_ghost/create: 613 bytes -> HTTP 200, 82 bytes
+12:46:26 [bbbridge] game PUT 18671 /20261013/20261013054626_8650_7248: 576 bytes -> HTTP 200, 15 bytes
+12:46:27 [bbbridge] game POST 18671 /blood_messenger/message_area: 1129 bytes -> HTTP 200, 36814 bytes
+12:46:28 [bbbridge] game POST 18671 /tomb_messenger/message_area: 1106 bytes -> HTTP 200, 14665 bytes
+12:46:31 [bbbridge] game PUT 18671 /20261013/20261013054631_8650_0277: 576 bytes -> HTTP 200, 15 bytes
+12:46:36 [bbbridge] game PUT 18671 /20261013/20261013054636_8650_5003: 576 bytes -> HTTP 200, 15 bytes
+12:46:41 [bbbridge] game PUT 18671 /20261013/20261013054641_8650_6069: 576 bytes -> HTTP 200, 15 bytes
+12:46:46 [bbbridge] game PUT 18671 /20261013/20261013054646_8650_9379: 576 bytes -> HTTP 200, 15 bytes
+12:47:03 [bbbridge] game PUT 18671 /20261013/20261013054651_8650_8615: 576 bytes -> HTTP 200, 15 bytes
+12:47:03 [bbbridge] game PUT 18671 /20261013/20261013054656_8650_4710: 576 bytes -> HTTP 200, 15 bytes
+12:47:03 [bbbridge] game PUT 18671 /20261013/20261013054701_8650_4515: 576 bytes -> HTTP 200, 15 bytes
+12:47:06 [bbbridge] game PUT 18671 /20261013/20261013054706_8650_9386: 576 bytes -> HTTP 200, 15 bytes
+12:47:11 [bbbridge] game PUT 18671 /20261013/20261013054711_8650_1193: 576 bytes -> HTTP 200, 15 bytes
+12:47:16 [bbbridge] game PUT 18671 /20261013/20261013054716_8650_2783: 576 bytes -> HTTP 200, 15 bytes
+12:47:21 [bbbridge] game PUT 18671 /20261013/20261013054721_8650_1388: 576 bytes -> HTTP 200, 15 bytes
+12:47:24 [bbbridge] game POST 18671 /basic_utils/get_emergency_notice: 165 bytes -> HTTP 200, 104 bytes
+12:47:26 [bbbridge] game POST 18671 /wandering_ghost/create: 853 bytes -> HTTP 200, 82 bytes
+12:47:26 [bbbridge] game PUT 18671 /20261013/20261013054726_8650_2621: 576 bytes -> HTTP 200, 15 bytes
+12:47:31 [bbbridge] game PUT 18671 /20261013/20261013054731_8650_8206: 576 bytes -> HTTP 200, 15 bytes
+12:47:36 [bbbridge] game PUT 18671 /20261013/20261013054736_8650_4695: 576 bytes -> HTTP 200, 15 bytes
+12:47:41 [bbbridge] game PUT 18671 /20261013/20261013054741_8650_0657: 576 bytes -> HTTP 200, 15 bytes
+12:47:46 [bbbridge] game PUT 18671 /20261013/20261013054746_8650_5535: 576 bytes -> HTTP 200, 15 bytes
+12:47:51 [bbbridge] game PUT 18671 /20261013/20261013054751_8650_6405: 576 bytes -> HTTP 200, 15 bytes
+12:47:56 [bbbridge] game PUT 18671 /20261013/20261013054756_8650_3868: 576 bytes -> HTTP 200, 15 bytes
+12:48:12 [bbbridge] game PUT 18671 /20261013/20261013054801_8650_5439: 576 bytes -> HTTP 200, 15 bytes
+12:48:12 [bbbridge] game PUT 18671 /20261013/20261013054806_8650_9846: 576 bytes -> HTTP 200, 15 bytes
+12:48:13 [bbbridge] game PUT 18671 /20261013/20261013054811_8650_1947: 576 bytes -> HTTP 200, 15 bytes
+12:48:16 [bbbridge] game PUT 18671 /20261013/20261013054816_8650_6174: 576 bytes -> HTTP 200, 15 bytes
+12:48:18 [bbbridge] game GET 20443 /bb-eu/ss.info: 0 bytes -> HTTP 200, 15216 bytes
+12:48:21 [bbbridge] game PUT 18671 /20261013/20261013054821_8650_1305: 576 bytes -> HTTP 200, 15 bytes
+12:48:25 [bbbridge] game POST 18671 /basic_utils/get_emergency_notice: 165 bytes -> HTTP 200, 104 bytes
+12:48:25 [bbbridge] game POST 18671 /wandering_ghost/get: 307 bytes -> HTTP 200, 5478 bytes
+12:48:26 [bbbridge] game POST 18671 /blood_messenger/evaluation: 129 bytes -> HTTP 200, 85 bytes
+12:48:26 [bbbridge] game POST 18671 /wandering_ghost/create: 821 bytes -> HTTP 200, 82 bytes
+12:48:26 [bbbridge] game PUT 18671 /20261013/20261013054826_8650_7693: 576 bytes -> HTTP 200, 15 bytes
+12:48:27 [bbbridge] game POST 18671 /blood_messenger/message_area: 1129 bytes -> HTTP 200, 36815 bytes
+12:48:28 [bbbridge] game POST 18671 /tomb_messenger/message_area: 1106 bytes -> HTTP 200, 14665 bytes
+12:48:32 [bbbridge] game PUT 18671 /20261013/20261013054831_8650_1003: 576 bytes -> HTTP 200, 15 bytes
+12:48:32 [bbbridge] game POST 18671 /chair_messenger/get: 264 bytes -> HTTP 200, 950 bytes
+12:48:36 [bbbridge] game PUT 18671 /20261013/20261013054836_8650_5703: 576 bytes -> HTTP 200, 15 bytes
+12:48:42 [bbbridge] game PUT 18671 /20261013/20261013054841_8650_3336: 576 bytes -> HTTP 200, 15 bytes
+12:48:47 [bbbridge] game PUT 18671 /20261013/20261013054846_8650_1172: 576 bytes -> HTTP 200, 15 bytes
+12:48:52 [bbbridge] game PUT 18671 /20261013/20261013054851_8650_8709: 576 bytes -> HTTP 200, 15 bytes
+12:48:57 [bbbridge] game PUT 18671 /20261013/20261013054856_8650_5408: 620 bytes -> HTTP 200, 15 bytes
+12:49:02 [bbbridge] game PUT 18671 /20261013/20261013054901_8650_3227: 512 bytes -> HTTP 200, 15 bytes
+12:49:16 [bbbridge] tcp: session for 'muvodich00' closed
+12:55:55 [bbbridge] the game's server traffic goes through bbbridge

@@ -1,0 +1,20 @@
+12:37:07 [bbbridge] bbbridge 0.3.2 - bbport: D:\SteamLibrary\steamapps\common\Bloodborne\bbport-windows (the folder bbbridge is in)
+12:37:10 [bbbridge] p2p: gateway on udp :63879 (bbhost framing)
+12:37:10 [bbbridge] listening: tcp :31313  stun :31314  webapi :31315
+12:37:10 [bbbridge] game proxy :31316 -> https://thehuntersdream.com:20443
+12:37:10 [bbbridge] game proxy :31317 -> https://thehuntersdream.com:18671
+12:37:10 [bbbridge] bbhost server: https://thehuntersdream.com:18671
+12:37:10 [bbbridge] community server: https://thehuntersdream.com:18671
+12:37:10 [bbbridge] p2p: relay on, our port on it is 4099
+12:37:10 [bbbridge] p2p: STUN sees us as 167.172.113.219:4099
+12:37:11 [bbbridge] error: Close the bbport launcher first - it would undo bbbridge's settings when it saves.
+12:37:17 [bbbridge] starting the game (bbhost pool through bbbridge): D:\SteamLibrary\steamapps\common\Bloodborne\bbport-windows\Play Bloodborne.exe
+12:37:23 [bbbridge] tcp: connection from 127.0.0.1:57431
+12:37:23 [bbbridge] tcp: connection from 127.0.0.1:57432
+12:37:23 [bbbridge] login: npid='muvodich00' title=CUSA03173
+12:37:24 [bbbridge] bbhost: using the stored token for 'muvodich00'
+12:37:24 [bbbridge] login: account id 4748937918720325 for 'muvodich00'
+12:37:27 [bbbridge] warning: no STUN ping seen for 'muvodich00' yet; P2P endpoint unknown
+12:37:48 [bbbridge] tcp: session for 'muvodich00' closed
+12:37:54 [bbbridge] bridge stopped
+12:37:54 [bbbridge] the game's server traffic goes to bbport's own addresses again

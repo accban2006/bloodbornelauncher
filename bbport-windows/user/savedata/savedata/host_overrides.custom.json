@@ -1,0 +1,11 @@
+{
+  "_bbbridge": "Written by bbbridge: the game's server traffic goes through bbbridge. Move bbbridge's Online switch to shadNet to remove.",
+  "https://ss4.scej-network.jp:20443": "http://127.0.0.1:31316",
+  "https://thehuntersdream.com:20443": "http://127.0.0.1:31316",
+  "https://thehuntersdream.com:18671": "http://127.0.0.1:31317",
+  "http://thehuntersdream.com:18671": "http://127.0.0.1:31317",
+  "https://bb-playlog-test.s3.amazonaws.com:443": "http://127.0.0.1:31317",
+  "https://bb-playlog-prod.s3.amazonaws.com:443": "http://127.0.0.1:31317",
+  "https://thehuntersdream.com:18671/summon_messenger": "http://127.0.0.1:31315",
+  "http://thehuntersdream.com:18671/summon_messenger": "http://127.0.0.1:31315"
+}

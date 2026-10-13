@@ -1,0 +1,3 @@
+name=wandering_ghost_get
+status=200
+

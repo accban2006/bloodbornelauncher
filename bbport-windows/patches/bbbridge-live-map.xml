@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Patch>
+    <TitleID>
+        <ID>CUSA03173</ID>
+    </TitleID>
+    <Metadata Title="Bloodborne" Name="Live map: play log every 5 s, position every 0.5 s" Note="Uploads the play log every 5 s instead of 300 s and samples the position every 0.5 s instead of 1.5 s, as bbhost does, so the player shows on thehuntersdream.com's live map." Author="bbbridge (from bbhost)" PatchVer="1.0" AppVer="01.09" AppElf="eboot.bin" isEnabled="true">
+        <PatchList>
+            <Line Type="float32" Address="0x023F9B8C" Value="5.0"/>
+            <Line Type="float32" Address="0x023F9B6E" Value="0.5"/>
+        </PatchList>
+    </Metadata>
+</Patch>
